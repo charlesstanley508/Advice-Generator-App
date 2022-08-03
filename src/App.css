@@ -2,19 +2,12 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* - Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218, 23%, 16%) */
 
 .App-header {
-  background-color: #282c34;
+  background-color: hsl(218, 23%, 16%) ;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +17,30 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.box{
+  width: 500px;
+  height: 250px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Span-text{
+  text-transform: capitalize;
+  font-size: 20px;
+  color: hsl(150, 100%, 66%);
+}
+
+button{
+  border-radius: 50px;
+  width: 50px;
+  background-color: hsl(150, 100%, 66%);
+  padding: 5px 0px;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+
+.Button :hover{
+  background-color: hsl(150, 100%, 66%);
 }
